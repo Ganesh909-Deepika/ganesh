@@ -1,0 +1,121 @@
+Zoopkeper command
+
+Need to go the path first then execute 
+
+////////////////////////////
+zookeeper-server-start.bat E:/kafka_2.13-2.5.0/config/zookeeper.properties
+
+////////////////////////////
+
+
+////////////////////////////
+kafka-server-start.bat E:/kafka_2.13-2.5.0/config/server.properties
+
+////////////////////////////
+
+
+
+
+kafka impemetion 
+
+Pick file from NGFT portal which contain the key 40 .45 ,30 21 
+Based on key data split 
+
+
+Basic filed 
+
+600 bytes record size
+
+if trailor and hedor not correct reject filel
+
+
+header H 64 byth
+
+key 
+pan length 16 digit 
+
+permanent account no
+name 
+address 
+Low range 
+
+High range 
+
+pancardno
+
+statecode 
+
+contry code
+
+pincode
+
+Treailer34 
+
+
+implements thread for fast processing 
+
+
+
+Deepclong of file shdow cloning of file 
+same file repet 
+
+lifo
+
+stack 
+
+push
+
+pop
+
+
+
+persantage 
+
+
+public static boolean shouldFailFile(List<Boolean> records, int errorThresholdPercentage) {
+        int totalRecords = records.size();
+        long invalidRecords = records.stream().filter(record -> !record).count();
+
+        double errorRate = (double) invalidRecords / totalRecords * 100;
+        return errorRate > errorThresholdPercentage;
+    }
+
+
+for parallel processing of Multithreading 
+
+using thread 
+
+
+@Component
+public class CacheHealthIndicator implements HealthIndicator {
+
+@Override
+public Health health() {
+    long result = checkSomething();
+    if (result <= 0) {
+        return Health.down().withDetail("Something Result", result).build();
+    }
+    return Health.up().build();      
+  }
+}
+
+Trailor and header not correct 
+
+
+Ngft subscribe 
+kafka
+Database 
+data base up or not using socket 
+data pass and failed 
+file name 
+file process time name 
+
+
+Ngftscriber
+consumer kafka
+Talator key processor 
+record lo catagrized kiya 
+
+
+
+

@@ -1,0 +1,6 @@
+Spring BOOT.
+CRQS.
+Saga Design Pattern.
+Synchro's And Asynchronous Call In Microservices.
+Array.asList();
+JAVA 8.
